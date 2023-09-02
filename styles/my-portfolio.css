@@ -3,7 +3,49 @@
     src: url(/styles/fonts/Marquette.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
+
+body, html {
+    width: 100%;
+    font-family: 'PT Serif';
+    /* font-style: italic; */
+}
+.header-brand {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 40% 20% 40%;
+    max-width: none;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.slide-menu {
+    background-color: brown;
+}
+
+.name {
+    background-color: blueviolet;
+}
+
+.social-head {
+    background-color: chocolate;
+}
+
 h2 {
     font-family: 'Marquette';
-    
+    font-weight: lighter;
+}
+
+.opening {
+    background-color: aqua;
+}
+
+.parallax {
+    background-color: black;
+    height: 20px;
+
+}
+
+.jobs {
+    background-color: blue;
 }
