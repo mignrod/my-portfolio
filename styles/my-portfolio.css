@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Marquette';
+    src: url(/styles/fonts/Marquette.otf);
+}
+
+h2 {
+    font-family: 'Marquette';
+    
+}
