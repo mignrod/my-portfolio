@@ -54,51 +54,30 @@
     </main>
 
     <footer class="contacts">
-        <div class="footer">
-            <div class="contactus">
-                <h1>LET'S TALK!</h1>
-                <h2>SEND AN EMAIL!</h2>
+        <div class="footer">                  
+            <form class="formulary">
+                <h1>Contact Us!</h1>
+                <h3>Send us a Message!</h3>
                 <p>Know more about our job.</p>
-                <form action="send-msg" method="get" class="formulary">
-                    <input type="text" class="user-name" id="input-field" required aria-label="Name">
-                    <input type="email" placeholder="email" class="user-email" id="input-field">
-                    <input type="text" placeholder="message" class="user-msg" id="input-field">
-                    <input type="text" class="submit" id="input">
-                </form>    
+                <hr class="sep">
+                <div class="group">
+                    <input type="text" required="required">
+                    <label class="formulary-label">Name</label>
+                </div>
+                <div class="group">
+                    <input type="text" required="required">
+                    <label class="formulary-label">Email</label>
+                </div>
+                <div class="group">
+                    <textarea type="textarea" rows="5" required="required"></textarea>
+                    <label class="formulary-label">Message</label>
+                </div>
+                <div class="btn-box">
+                    <button class="btn btn-submit" type="submit">Submit</button>
+                </div>
+            </form>
                 
-                <!-- <form>
-                    <h1>Material Inputs</h1>
-                    <h5>Inspired by Google's Material Design guidelines for text fields</h5>
-                    <div class="btn-box"><a class="btn btn-link" href="https://material.google.com/components/text-fields.html" target="_blank">Design Docs</a></div>
-                    <hr class="sep">
-                    <div class="group">
-                      <input type="text" required="required"><span class="highlight"></span><span class="bar"></span>
-                      <label>Name</label>
-                    </div>
-                    <div class="group">
-                      <input type="text" required="required"><span class="highlight"></span><span class="bar"></span>
-                      <label>Email</label>
-                    </div>
-                    <div class="group">
-                      <input type="password" required="required"><span class="highlight"></span><span class="bar"></span>
-                      <label>Password</label>
-                    </div>
-                    <div class="group">
-                      <input type="number" required="required"><span class="highlight"></span><span class="bar"></span>
-                      <label>Number</label>
-                    </div>
-                    <div class="group">
-                      <textarea type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
-                      <label>Message</label>
-                    </div>
-                    <div class="btn-box">
-                      <button class="btn btn-submit" type="submit">submit</button>
-                      <button class="btn btn-cancel" type="button">cancel</button>
-                      <h5>*these buttons do nothing <span class="emoji">😉</span></h5>
-                    </div>
-                  </form> -->
-                
-            </div>
+        </div>
             <div class="designer"><p>&copy Mignrod 2023</p></div>
             <div class="social-bottom">
                 <a href="#" class="fa fa-linkedin"></a>

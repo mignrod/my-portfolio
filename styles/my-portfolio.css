@@ -126,10 +126,6 @@ body, html {
     
 }
 
-.contactus h1, h2 {
-    margin: 5px;
-
-}
 
 .designer {
     display: flex;
@@ -153,27 +149,37 @@ body, html {
     align-items: center;
 }
 
+
 .formulary {
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 5px;
-    padding: 5px;
+    width: 450px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+    grid-column: 1/4;
+}
+
+.formulary h1, h3, p {
     text-align: center;
-    background-color: aquamarine;
-    
+    font-style: italic;
 }
 
-#input-field {
-    border-radius: 10%;
-    height: 20px;
-    text-align: center;
-    width: 500px;
-    justify-content: center;
-    background-color: bisque;
+.sep {
+    color: blue;
 }
 
-.user-msg {
-    min-height: 50px;
-}
+label {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition:  300ms ease all;
+  }
 
-/* prueba */
+.group {
+    position: relative;
+    margin: 45px 0;
+  }
