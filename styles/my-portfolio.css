@@ -7,8 +7,9 @@
 
 body, html {
     width: 100%;
+    margin: 0;
     font-family: 'PT Serif';
-    /* font-style: italic; */
+    
 }
 .header-brand {
     display: grid;
@@ -21,19 +22,37 @@ body, html {
 
 .slide-menu {
     background-color: brown;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
 }
 
 .name {
     background-color: blueviolet;
+    font-style: italic;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Marquette';
+    
+}
+
+.name h1 {
+    font-weight: lighter;
 }
 
 .social-head {
     background-color: chocolate;
-}
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+    column-gap: 15px;
 
-h2 {
-    font-family: 'Marquette';
-    font-weight: lighter;
 }
 
 .opening {
@@ -43,9 +62,121 @@ h2 {
 .parallax {
     background-color: black;
     height: 20px;
+    margin-bottom: 40px;
+}
 
+.card-container {
+    background-color: aqua;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 50px;
+    border-radius: 25px;
+    /* background: #d1f1cf; */
+    box-shadow:  12px 12px 24px #9bb299, -12px -12px 24px #ffffff;
 }
 
 .jobs {
     background-color: blue;
+    display: grid;
+    margin: auto;
+    width: 95%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    border-radius: 25px;
+    /* background: #d1f1cf; */
+    box-shadow:  12px 12px 24px #9bb299, -12px -12px 24px #ffffff;
+    padding: 10px;
+
 }
+
+
+.job-box {
+    background-color: chartreuse;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 25px;
+    /* background: #d1f1cf; */
+    box-shadow:  1px 12px 24px #9bb299, -1px -12px 24px #ffffff;
+    padding: 10px;
+}
+
+.contacts {
+    background-color: aquamarine;
+    margin-top: 40px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 30px;
+    gap: 30px;
+}
+
+.contactus {
+    grid-column: 1/4;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contactus h1, h2 {
+    margin: 5px;
+
+}
+
+.designer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.top-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.formulary {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+
+#input-field {
+    border-radius: 10%;
+    height: 20px;
+    text-align: center;
+    width: 500px;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.user-msg {
+    min-height: 50px;
+}
+
+/* prueba */
+
+
+
