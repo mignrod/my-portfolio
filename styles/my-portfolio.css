@@ -187,11 +187,6 @@ label {
     text-align: center;
   }
 
-.group {
-    position: relative;
-    
-  }
-
 input {
     width: 320px;
     height: 30px;
@@ -222,10 +217,12 @@ input:focus + .formulary-label {
 textarea:focus + .formulary-label {
     margin-top: -25px;
 }
-.formulary .group {
+
+.group {
     display: flex;
     justify-content: center;
     margin: 25px;
+    position: relative;
 }
 
 .btn-box {
