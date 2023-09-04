@@ -126,12 +126,18 @@ body, html {
     
 }
 
+.bottom-banner {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 
+}
 .designer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .social-bottom {
@@ -139,7 +145,8 @@ body, html {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    column-gap: 15px;
+    column-gap: 20px;
+    
 }
 
 .top-nav {
@@ -169,17 +176,76 @@ body, html {
 }
 
 label {
-    color: black;
+    color: rgba(0, 0, 0, 0.4);
     font-size: 16px;
     font-weight: normal;
     position: absolute;
     pointer-events: none;
-    left: 5px;
-    top: 10px;
-    transition:  300ms ease all;
+    left: 45px;
+    top: 7px;
+    transition: .2s ease all;
+    text-align: center;
   }
 
 .group {
     position: relative;
-    margin: 45px 0;
+    
   }
+
+input {
+    width: 320px;
+    height: 30px;
+  }
+
+textarea {
+    width: 320px;
+    height: 200px;
+    resize: none;
+}
+
+input, textarea {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #424242;
+    background: none;
+
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+input:focus + .formulary-label {
+    margin-top: -25px;
+}
+
+textarea:focus + .formulary-label {
+    margin-top: -25px;
+}
+.formulary .group {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.btn-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.btn-submit {
+    width: 80px;
+    height: 25px;
+    border-radius: 10%;
+}
+
+.fa.fa-linkedin, .fa.fa-github, .fa.fa-whatsapp {
+    color: white;
+    font-size: 25px;
+}
+
+/* *:before, *:after {
+    box-sizing: border-box;
+} */
+
