@@ -6,11 +6,17 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
 
 :root {
-    --rich-black: #000814ff;
+    /* --rich-black: #000814ff;
     --oxford-blue: #001d3dff;
     --navy-blue: #000066ff;
     --mikado-yellow: #ffc300ff;
-    --gold: #ffd60aff;
+    --gold: #ffd60aff; */
+
+    --timberwolf: #d6d6d6ff;
+    --aureolin: #ffee32ff;
+    --jonquil: #ffd100ff;
+    --eerie-black: #202020ff;
+    --jet: #333533ff;
 }
 
 body, html {
