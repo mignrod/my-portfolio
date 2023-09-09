@@ -5,6 +5,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
 
+:root {
+    --rich-black: #000814ff;
+    --oxford-blue: #001d3dff;
+    --navy-blue: #000066ff;
+    --mikado-yellow: #ffc300ff;
+    --gold: #ffd60aff;
+}
+
 body, html {
     width: 100%;
     margin: 0;
@@ -37,7 +45,7 @@ body, html {
     justify-content: center;
     align-items: center;
     font-family: 'Marquette';
-    
+    color: var(--gold);
 }
 
 .name h1 {
