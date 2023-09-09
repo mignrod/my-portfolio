@@ -17,13 +17,19 @@
     --jonquil: #ffd100ff;
     --eerie-black: #202020ff;
     --jet: #333533ff;
+
+    /* --timberwolf: hsla(0, 0%, 84%, 1);
+--aureolin: hsla(55, 100%, 60%, 1);
+--jonquil: hsla(49, 100%, 50%, 1);
+--eerie-black: hsla(0, 0%, 13%, 1);
+--jet: hsla(120, 2%, 20%, 1); */
 }
 
 body, html {
     width: 100%;
     margin: 0;
     font-family: 'PT Serif';
-    
+   
 }
 .header-brand {
     display: grid;
