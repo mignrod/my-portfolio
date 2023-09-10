@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Marquette';
+    font-family: MarquetteFont;
     src: url(/styles/fonts/Marquette.otf), format(otf);
 }
 
@@ -56,7 +56,7 @@ body, html {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    font-family: 'Marquette';
+    font-family: MarquetteFont;
     color: var(--gold);
 }
 
