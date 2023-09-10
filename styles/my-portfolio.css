@@ -1,6 +1,6 @@
 @font-face {
     font-family: MarquetteFont;
-    src: url(/styles/fonts/Marquette.otf), format(otf);
+    src: url(/styles/fonts/Marquette.ttf), format(truetype);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
